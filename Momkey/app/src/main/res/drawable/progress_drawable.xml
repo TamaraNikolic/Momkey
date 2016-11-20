@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <shape android:shape="line" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <size android:height="1dp"/>
+
+    <gradient android:startColor="@color/button_music" android:endColor="@color/button_music" android:centerColor="@color/button_music" android:angle="0"/>
+
+    <corners android:radius="0dp"/>
+
+    <stroke android:color="@color/button_music" android:width="2dp"/>
+
+    <stroke android:color="@color/button_music" android:width="2dp"/>
+
+</shape>

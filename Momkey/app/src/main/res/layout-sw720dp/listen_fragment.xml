@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff"
+        android:layout_marginLeft="@dimen/matgin_recording_bottom"
+        android:layout_marginTop="@dimen/matgin_recording_bottom"
+        android:layout_above="@+id/relativeLayout5"
+        android:layout_alignParentTop="true" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color"
+
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/listView"
+        android:id="@+id/relativeLayout5">
+
+<SeekBar
+    android:id="@+id/seekBarDuration"
+    android:layout_width="370dp"
+    android:layout_height="wrap_content"
+    android:progressDrawable="@drawable/progress_drawable"
+    android:thumb="@drawable/thumb_drawable"
+    android:layout_marginTop="@dimen/seekbar_marginTop"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seekBarDuration"
+            android:layout_alignParentStart="true"
+            android:id="@+id/relativeLayout">
+            <Button
+                android:id="@+id/buttonPlay"
+                android:layout_width="@dimen/floating_button"
+                android:layout_height="@dimen/floating_button"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/play"
+                android:layout_centerVertical="true"
+                />
+            <Button
+                android:id="@+id/buttonBack"
+                android:layout_width="@dimen/button_music"
+                android:layout_height="@dimen/button_music"
+                android:background="@drawable/back"
+                android:layout_marginStart="@dimen/control_music_margin"
+                android:layout_alignTop="@+id/buttonPlay"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                />
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="@dimen/button_music"
+                android:layout_height="@dimen/button_music"
+                android:background="@drawable/next"
+                android:layout_alignTop="@+id/buttonPlay"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/control_music_margin"
+                android:layout_centerVertical="true"
+                />
+
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="How to use Momkey"
+            android:textSize="@dimen/sound_name"
+            android:id="@+id/buttonHowYoUse"
+            android:textColor="@color/main_color"
+            android:background="@drawable/textviewshape"
+            android:padding="@dimen/vutton_pading"
+            android:textAlignment="center"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/relativeLayout"
+            android:layout_marginTop="@dimen/vutton_margin"
+            />
+
+        <TextView
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:text="Momkey Affirmations"
+            android:id="@+id/textViewAff"
+            android:textSize="@dimen/sound_name"
+            android:textColor="@color/main_color"
+            android:background="@drawable/textviewshape"
+            android:layout_below="@+id/buttonHowYoUse"
+            android:layout_alignEnd="@+id/buttonHowYoUse"
+            android:padding="@dimen/vutton_pading"
+            android:layout_marginBottom="@dimen/vutton_margin"
+            android:layout_marginTop="@dimen/vutton_margin"
+            android:textAlignment="center"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="00:00"
+            android:id="@+id/textViewStart"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:textSize="17dp"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="00:00"
+            android:id="@+id/textViewTimeEnd"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="17dp"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

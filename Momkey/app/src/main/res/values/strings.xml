@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Momkey</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="how_it_use">How it use?</string>
+    <string name="how_does_it_work">How does it work?</string>
+    <string name="song_name_dafault">My recording #</string>
+
+    <string name="affirmation">Record these affirmations to achieve your desires:</string>
+
+
+    <string-array name="spinner_array">
+        <item>Settings</item>
+        <item>Help</item>
+
+
+    </string-array>
+
+    <string name="no_record">is ready to start</string>
+    <string name="is_recording">recording</string>
+    <string name="recording_title">MOMKEY recording #</string>
+    <string name="affirmation_money">Affirmations for Money</string>
+    <string name="affirmation_shiness">Affirmations - Shyness</string>
+    <string name="affirmation_despession">Affirmations – Depression and Anxiety</string>
+    <string name="monkey_special">What is special to Momkey</string>
+    <string name="monkey_benefits">More benefits of the Momkey App</string>
+    <string name="monkey_record">Record your own voice affirmations</string>
+
+
+    <string-array name="settings_array">
+        <item>The best affirmations are those that are spoken with your own voice. The own voice is the subconscious trusts and is therefore not blocked.</item>
+        <item>In conventional subliminal apps the user does not know, which affirmations are transmitted. With the Monkey app, you can give yourself a targeted program. Your specific needs and desires, you can now program into your subconscious</item>
+        <item>Go to Main page Record and click on the red record button below. Now you can start to speak your affirmations into your phone with a second break in between.
+\n
+  \nYou should speak with a joyful and euphoric voice. The minimum are 10 different affirmations, more is better.
+\n
+    \nThen save the recording and go to the Listen page. Here you select the recording and play it. Momkey plays the recording in the continuous loop.
+\n\nThe more often you hear the affirmations, the better. It is recommended for half an hour every day, of course, with headphones.</item>
+    </string-array>
+
+    <string-array name="affir_array">
+
+        <item>
+</item>
+        <item>  • I am rich  \n• I am successful \n• I am a money magnet\n• I love money\n• I have more than enough money
+</item>
+        <item>• I am outgoing\n• I am confident when meeting new people \n• I enjoy meeting new people \n• Being confident is my natural right \n• I always share my thoughts and feelings
+</item>
+        <item>• I love myself and who I am \n• I am happy \n• I am free of depression \n• I find it easy to stay happy \n• I am free of negative thoughts
+</item>
+
+
+    </string-array>
+    <string-array name="interface_array">
+        <item>Naming</item>
+        <item>Custom prefixs</item>
+        <item>File name prefix</item>
+        <item>Apperance and notification</item>
+        <item>Hide notification from lock skreen</item>
+    </string-array>
+</resources>

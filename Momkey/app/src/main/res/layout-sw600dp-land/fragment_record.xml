@@ -1,0 +1,115 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.RecordFragment"
+
+    android:background="#fff"
+
+    >
+
+
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButtonRecord"
+        android:layout_width="@dimen/floating_button"
+        android:layout_height="@dimen/floating_button"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="@dimen/margin_floating"
+        android:src="@drawable/record"
+
+
+        />
+
+    <RelativeLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="230dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/no_record"
+            android:textAlignment="center"
+            android:id="@+id/textViewState"
+            android:layout_marginBottom="@dimen/matgin_recording_bottom"
+            android:layout_above="@+id/visualizer"
+            android:layout_centerHorizontal="true"
+            android:textColor="#717171"
+            android:textSize="@dimen/recordin_ready_to_start_textsize"
+            />
+<TextView
+    android:id="@+id/textViewStorage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="23h left on storage"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:textColor="@color/button_music"
+    android:textSize="@dimen/recordin_ready_to_start_textsize"
+
+    />
+
+        <com.momkey.alen.momkey.View.VisualizerView
+            android:id="@+id/visualizer"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/visualizer_height"
+            android:layout_gravity="right|bottom"
+            android:layout_margin="@dimen/visualizer_margin"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/textViewRecordingTime"
+            android:layout_below="@+id/visualizer"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/button_music"
+            android:textSize="@dimen/recordin_ready_to_start_textsize"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="@dimen/button_music"
+        android:layout_height="@dimen/button_music"
+        android:layout_marginBottom="@dimen/margin_bottom_delete_save"
+        android:id="@+id/imageViewDelete"
+        android:layout_gravity="right|bottom"
+        android:layout_marginRight="@dimen/margin_left_delete_save"
+        android:src="@drawable/delete"
+        android:alpha="0.4"
+        android:visibility="gone"
+        />
+
+    <ImageView
+        android:layout_width="@dimen/button_music"
+        android:layout_height="@dimen/button_music"
+        android:layout_marginBottom="@dimen/margin_bottom_delete_save"
+        android:layout_marginLeft="@dimen/margin_left_delete_save"
+        android:id="@+id/imageViewaSave"
+        android:layout_gravity="left|bottom"
+        android:src="@drawable/save"
+        android:alpha="0.4"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:layout_marginTop="@dimen/sound_margin_top"
+        android:layout_width="match_parent"
+        android:textAlignment="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewSoundName"
+        android:layout_centerHorizontal="true"
+        android:textSize="@dimen/sound_name"
+        android:textColor="@color/button_music"
+        android:layout_gravity="center_horizontal|top" />
+
+
+
+
+
+</FrameLayout>

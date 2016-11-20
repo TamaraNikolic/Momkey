@@ -1,0 +1,52 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="floating_button">60dp</dimen>
+    <dimen name="button_music">30dp</dimen>
+    <dimen name="margin_floating">30dp</dimen>
+    <dimen name="image_view_toolbar">24dp</dimen>
+    <dimen name="image_momkey_he">40dp</dimen>
+    <dimen name="image_momkey_we">140dp</dimen>
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="momkeu_title_text">20dp</dimen>
+
+    <dimen name="matgin_recording_bottom">7dp</dimen>
+    <dimen name="recordin_ready_to_start_textsize">14dp</dimen>
+    <dimen name="visualizer_height">120dp</dimen>
+    <dimen name="visualizer_margin">5dp</dimen>
+
+    <dimen name="margin_bottom_delete_save">40dp</dimen>
+    <dimen name="margin_left_delete_save">40dp</dimen>
+
+    <dimen name="sound_name">18dp</dimen>
+    <dimen name="sound_margin_top">70dp</dimen>
+
+    <dimen name="seekbar_width">260dp</dimen>
+    <dimen name="seekbar_marginTop">12dp</dimen>
+
+    <dimen name="listview_height">240dp</dimen>
+
+    <dimen name="control_music_margin">80dp</dimen>
+    <dimen name="button_width">200dp</dimen>
+    <dimen name="vutton_pading">10dp</dimen>
+    <dimen name="vutton_margin">10dp</dimen>
+
+    <dimen name="list_view_name_width">200dp</dimen>
+    <dimen name="list_view_name_margin">10dp</dimen>
+
+    <dimen name="list_view_time_width">70dp</dimen>
+    <dimen name="list_view_time_margin_top">30dp</dimen>
+    <dimen name="list_view_time_margin_end">10dp</dimen>
+
+    <dimen name="open_width">30dp</dimen>
+    <dimen name="open_height">20dp</dimen>
+    <dimen name="layout_margin_top">10dp</dimen>
+    <dimen name="delete_end">40dp</dimen>
+
+    <dimen name="play_icon_width">40dp</dimen>
+    <dimen name="play_icon_height">20dp</dimen>
+    <dimen name="play_icon_pading">3dp</dimen>
+
+
+</resources>

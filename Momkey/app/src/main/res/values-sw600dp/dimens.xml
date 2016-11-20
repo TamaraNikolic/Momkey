@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">22dp</dimen>
+    <dimen name="activity_vertical_margin">22dp</dimen>
+    <dimen name="floating_button">80dp</dimen>
+    <dimen name="button_music">50dp</dimen>
+    <dimen name="margin_floating">24dp</dimen>
+    <dimen name="image_view_toolbar">39dp</dimen>
+    <dimen name="image_momkey_he">60dp</dimen>
+    <dimen name="image_momkey_we">180dp</dimen>
+    <dimen name="widget_margin">12dp</dimen>
+    <dimen name="momkeu_title_text">17dp</dimen>
+
+    <dimen name="matgin_recording_bottom">12dp</dimen>
+    <dimen name="recordin_ready_to_start_textsize">20dp</dimen>
+    <dimen name="visualizer_height">120dp</dimen>
+    <dimen name="visualizer_margin">10dp</dimen>
+
+    <dimen name="margin_bottom_delete_save">40dp</dimen>
+    <dimen name="margin_left_delete_save">60dp</dimen>
+
+    <dimen name="sound_name">22dp</dimen>
+    <dimen name="sound_margin_top">70dp</dimen>
+
+    <dimen name="seekbar_width">240dp</dimen>
+    <dimen name="seekbar_marginTop">14dp</dimen>
+
+    <dimen name="listview_height">240dp</dimen>
+
+    <dimen name="control_music_margin">60dp</dimen>
+    <dimen name="button_width">320dp</dimen>
+    <dimen name="vutton_pading">10dp</dimen>
+    <dimen name="vutton_margin">20dp</dimen>
+
+    <dimen name="list_view_name_width">150dp</dimen>
+    <dimen name="list_view_name_margin">10dp</dimen>
+
+    <dimen name="list_view_time_width">120dp</dimen>
+    <dimen name="list_view_time_margin_top">40dp</dimen>
+    <dimen name="list_view_time_margin_end">14dp</dimen>
+
+    <dimen name="open_width">40dp</dimen>
+    <dimen name="open_height">30dp</dimen>
+    <dimen name="layout_margin_top">14dp</dimen>
+    <dimen name="delete_end">40dp</dimen>
+
+    <dimen name="play_icon_width">40dp</dimen>
+    <dimen name="play_icon_height">20dp</dimen>
+    <dimen name="play_icon_pading">3dp</dimen>
+
+
+</resources>
+
+
+
+
